@@ -1,9 +1,24 @@
 using System;
+using System.Collections.Generic;
 
-class Program
+namespace Develop02
 {
-    static void Main(string[] args)
+    class Program
     {
-        Console.WriteLine("Hello Develop02 World!");
+        static void Main(string[] args)
+        {
+            
+            
+            Command command = new Command();
+            Console.WriteLine("\r\nWelcome to the journal program!");
+            
+            while(!command._quit)
+            {
+            command.DisplayOptions();
+            command.GetInput();
+            }
+
+
+        }
     }
 }
