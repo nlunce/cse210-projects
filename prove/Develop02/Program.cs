@@ -49,7 +49,8 @@ namespace Develop02
             commands.Add("Quit", quitCommand);
             
 
-
+            Console.WriteLine("Welcome to the Journal Program!");
+            
             while (!quitCommand.IsQuit()) 
             {
                 displayOptionsCommand.Execute();
