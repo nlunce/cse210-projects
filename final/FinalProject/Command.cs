@@ -6,3 +6,15 @@ using TweetSharp;
 using System.Threading.Tasks;
 using System.Timers;
 using System.Runtime.CompilerServices;
+
+namespace TwitterBot
+{
+    interface ICommand
+    {
+        void Execute()
+        {
+
+        }
+
+    }
+}
